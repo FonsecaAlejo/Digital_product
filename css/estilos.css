@@ -20,6 +20,14 @@ html,body{
   font-family: 'Open Sans', sans-serif;
 }
 
+.background{
+  background-image: url(../images/curve.png);
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-position-y: 10%;
+}
+
 nav{
   display: flex;
   background-color: var(--green-color);
@@ -55,9 +63,9 @@ nav li a:hover{
 }
 
 .products{
-  background-image: url(../images/curve.png);
+  /* background-image: url(../images/curve.png);
   background-size: cover;
-  background-position: center top;
+  background-position: center top; */
   overflow: hidden;
   padding: 0% 20%;
   display: flex;
